@@ -19,7 +19,7 @@
 <!-- <link rel="shortcut icon"  href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico"> -->
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/MyFontsWebfontsKit.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?v3">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?v1">
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-ui.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.simplesidebar.js"></script>
@@ -52,9 +52,9 @@
     <div class="headerWrap">
       <div class="inner">
       <?php if ( is_home() || is_front_page() ) : ?>
-      <div class="logo"><a href="#container"><img src="<?php echo get_template_directory_uri(); ?>/images/bctech_logo.jpg" alt="BCTECH" width = "" height = ""></a></div>
+      <div class="logo"><a href="#container"><img src="<?php echo get_template_directory_uri(); ?>/images/recika_logo.png" alt="RECIKA" width = "" height = ""></a></div>
       <?php else : ?>
-      <div class="logo"><a href="<?php echo home_url('/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/bctech_logo.jpg" alt="BCTECH" width = "" height = "" ></a></div>
+      <div class="logo"><a href="<?php echo home_url('/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/recika_logo.png" alt="RECIKA" width = "" height = "" ></a></div>
       <?php endif; ?>
 
       <!-- <ul class="sns">
