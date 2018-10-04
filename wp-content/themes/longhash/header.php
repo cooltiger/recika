@@ -6,20 +6,20 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="format-detection" content="telephone=no">
 <meta name="keywords" content="ブロックチェーン技術研究,Dapps開発,ブロックチェーン関連コンサルティング" />
-<meta name="description" content="ブロックチェーン関連コンサルタント、Dappsの開発な…" />
+<meta name="description" content="ブロックチェーン技術で作る購買データマーケットプレイスとユニバーサルポイントプログラム" />
 <title><?php wp_title( '|', true, 'right' ); bloginfo('name'); ?></title>
 <html prefix="og: http://ogp.me/ns#">
-<meta property="og:title" content="k.k BCTECH | BLOCKCHAIN Advancing the understanding and development of blockchain technology"/>
+<meta property="og:title" content="k.k RECIKA | BLOCKCHAIN Advancing the understanding and development of blockchain technology"/>
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://bctech.jp/"/>
-<meta property="og:image" content="http://bctech.jp/wp-content/themes/longhash/images/Tokex_20180306_v1.png"/>
-<meta property="og:site_name"  content="株式会社BCTECH | ブロックチェーン関連コンサルタント、Dappsの開発な…"/>
-<meta property="og:description" content="ブロックチェーン関連コンサルタント、Dappsの開発な…"/>
+<meta property="og:url" content="http://recika.jp/"/>
+<meta property="og:image" content="http://recika.jp/wp-content/themes/longhash/images/Tokex_20180306_v1.png"/>
+<meta property="og:site_name"  content="株式会社RECIKA | ブロックチェーン技術で作る購買データマーケットプレイスとユニバーサルポイントプログラム"/>
+<meta property="og:description" content="ブロックチェーン技術で作る購買データマーケットプレイスとユニバーサルポイントプログラム"/>
 
 <!-- <link rel="shortcut icon"  href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico"> -->
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/MyFontsWebfontsKit.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?v1">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?v9">
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-ui.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.simplesidebar.js"></script>
@@ -78,17 +78,17 @@
       <div class="inner">
         <ul>
           <?php if ( is_home() || is_front_page() ) : ?>
-          <li><a href="#topNews">SERVICE</a></li>
+          <li><a href="#topNews">なぜレシカ</a></li>
           <!-- <li><a href="#media">MEDIA</a></li> -->
-          <li><a href="#company">COMPANY</a></li>
-          <li><a href="#member">MEMBER</a></li>
-          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#company">コンセプト</a></li>
+          <li><a href="#member">なぜブロックチェーン</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
           <?php else : ?>
-          <li><a href="<?php echo home_url('/'); ?>#topNews">SERVICE</a></li>
+          <li><a href="<?php echo home_url('/'); ?>#topNews">なぜレシカ</a></li>
           <!-- <li><a href="<?php echo home_url('/'); ?>#media">MEDIA</a></li> -->
-          <li><a href="<?php echo home_url('/'); ?>#company">COMPANY</a></li>
-          <li><a href="<?php echo home_url('/'); ?>#member">MEMBER</a></li>
-          <li><a href="<?php echo home_url('/'); ?>#contact">CONTACT</a></li>
+          <li><a href="<?php echo home_url('/'); ?>#company">コンセプト</a></li>
+          <li><a href="<?php echo home_url('/'); ?>#member">なぜブロックチェーン</a></li>
+          <li><a href="<?php echo home_url('/'); ?>#contact">お問い合わせ</a></li>
           <?php endif; ?>
         </ul>
       </div>

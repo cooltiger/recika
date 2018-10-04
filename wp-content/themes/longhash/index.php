@@ -2,6 +2,13 @@
 
   <section class="kv">
     <div class="inner">
+      <p class="ttl">
+        レシカは、 レシート　➕ ブロックチェーン　<br class="pc">
+        レシカは、 顧客データ効率よく取得できる　<br class="pc">
+        レシカは、 日本の地方経済を活性化する　<br class="pc">
+      </p>
+      
+      <!--
       <p class="ttl">OUR MISSION</p>
       <h1>
         ブロックチェーン技術全般開発支援します。
@@ -12,24 +19,28 @@
         eウォレットと企業の実業務を繋げるインターフェースを構築します。<br class="pc">
       </p>
       <div class="logo">
-        <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/bctech_logo_1.png" alt="BCTECH"> -->
+         <img src="<?php echo get_template_directory_uri(); ?>/images/recika_logo_1.png" alt="RECIKA">
       </div>
+      -->
     </div>
   </section>
 
   <section id="topNews">
     <div class="inner">
-      <h2 class="hstyle01">SERVICE</h2>
+      <h2 class="hstyle01">なぜレシカ</h2>
+        <img src="<?php echo get_template_directory_uri(); ?>/images/recika-detail_1.png?v1" width=100% alt="なぜレシカ">
       <div class="newsListWrap">
 <?php
 $args = array(
-  'post_type'      => 'post',
+  // 'post_type'      => 'post', 
+  'post_type'      => 'post1', // 表示しないため
   'posts_per_page' => 3,
   'orderby' =>  'ID',//キーの指定
 	'order' =>  'ASC',//並び順の指定
 );
 $blog_posts = new WP_Query( $args );
 if ( $blog_posts->have_posts() ) :
+
 ?>
 
 <?php
@@ -103,14 +114,25 @@ endif;
       <div class="btnWrap">
         <a href="<?php echo home_url('/'); ?>media/" class="btn">MORE LIST</a>
       </div>
-    </div>
-  </section> -->
+    </div> -->
+  
+  </section> 
+  
 
   <section id="company">
     <div class="bg">
     <div class="inner">
-      <h2 class="hstyle01">COMPANY</h2>
-
+      <h2 class="hstyle01">コンセプト</h2>
+      <div>
+      <p class="hstyle04">
+       レシカはブロックチェーンによる”分散型データマーケット <br> 
+       プレイス”で生産者と消費者をデータやポイント（トークン）<br> 
+       でダイレクトにつなぎコミニティー形成を図る。
+       <br> 
+       <br> 
+       <br> 
+      </p>
+      </div>
       <!-- <div class="movieWrap">
         <div class="movie">
           <iframe src="https://www.youtube.com/embed/zS67Sl4rwHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -125,13 +147,13 @@ endif;
         </p>
         <p class="president">Chris Dai</p>
       </section>
- -->
+ 
       <section class="overview">
         <h3 class="hstyle02">企業概要</h3>
         <table>
           <tr>
             <th>社名</th>
-            <td>株式会社 BCTECH</td>
+            <td>株式会社 RECIKA</td>
           </tr>
           <tr>
             <th>本社所在地</th>
@@ -145,12 +167,10 @@ endif;
             <th>設立</th>
             <td>2018年6月<div id="map"></div></td>
           </tr>
-          <!--
           <tr>
             <th>資本金</th>
             <td>900万円</td>
           </tr>
-          -->
           <tr>
             <th>取引銀行</th>
             <td>三菱ＵＦＪ銀行　　六本木支店<br>みずほ銀行　　品川支店</td>
@@ -165,7 +185,7 @@ endif;
       <div class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.458257410609!2d139.73722801525832!3d35.665716780197926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b9b2917e1f3%3A0x18f184cc63634a55!2z44CSMTA2LTAwMzIg5p2x5Lqs6YO95riv5Yy65YWt5pys5pyo77yR5LiB55uu77yU4oiS77yV!5e0!3m2!1sja!2sjp!4v1520601651568" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
-
+      -->
       <!-- <section class="overseas">
         <h3 class="hstyle02">活動拠点</h3>
         <img src="<?php echo get_template_directory_uri(); ?>/images/pic_map.png?v2" alt="海外拠点">
@@ -237,7 +257,9 @@ endif;
   <section id="company">
     <!-- <div class="bg"> -->
     <div class="inner">
-      <h2 class="hstyle01">Member</h2>
+      <h2 class="hstyle01">なぜブロックチェーン </h2>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/recika-detail_3.png?v1" width=100% alt="なぜブロックチェーン">
+      <br><br><br><br><br>
   <!-- <section> -->
     <!-- <div class="inner"> -->
       <!-- <h2 class="hstyle01">Member</h2> -->
@@ -248,10 +270,10 @@ endif;
         <p>
           ソロモン・ブラザーズでアジアトレーディング所長を務め、チューダー・キャピタル・ジャパン、あすかアセットマネジメント、マーキュリアインベストメント、D4V、ライフネットやマネーデザイン等を含む、多くのファンドやFin-techの企業を共同設立した。 また、グローバル・ファイナンシャル・シティ・トウキョウのアドバイザリーパネルのメンバーであり、東京のブロックチェーン促進者”ブロックチェーンビジネスキャンプ東京”のメイン創設者の一人。東京大学法学部1987年卒業。
         </p>
-      </section> -->
+      </section> 
       <section class="officer">
         <img src="<?php echo get_template_directory_uri(); ?>/images/pic_member_00.png" alt="丁　艶斌" width="125">
-        <p class="name">丁　艶斌<span>BCTECH Japan 代表取締役社長</span></p>
+        <p class="name">丁　艶斌<span>RECIKA Japan 代表取締役社長</span></p>
         <p>
         株式会社ＴＨＳの創業者、クラウドサービス・Fintech・ＳＡＰ開発など色な分野の開発経験が豊富で、ブロックチェーン、スマートコントラクト関連技術の研究し、最新技術の導入が積極的に行なっている。ブロックチェーン、スマートコントラクトの専門知識があり、日本市場における利用するシーンを開拓する。
         </p>
@@ -259,7 +281,7 @@ endif;
 
       <section class="officer">
         <img src="<?php echo get_template_directory_uri(); ?>/images/pic_member_04.png" alt="Yanfeng Chen">
-        <p class="name">Yanfeng Chen<span>BCTECH Japan 取締役</span></p>
+        <p class="name">Yanfeng Chen<span>RECIKA Japan 取締役</span></p>
         <p>
           ハードウェアの仮想トークンウォーレットシステムNebulaの創業者、ICOAGE(かつて中国最大のICOプラットフォーム)とCybex(分散型取引所）の共同創業者。米国National Instrumentsの中国西部支社のCEO, Juxing Instrumentsの共同創業者でもある。ブロックチェーン技術に精通し、ハードウェアとソフトウェア開発両方に専門知識があり、特にネットワークセキュリティーを得意とする。上海交通大学　電子工学修士。
         </p>
@@ -267,12 +289,12 @@ endif;
 
       <section class="officer">
         <img src="<?php echo get_template_directory_uri(); ?>/images/pic_member_02.png" alt="Chris Dai">
-        <p class="name">Chris Dai<span>BCTECH Japan 取締役</span></p>
+        <p class="name">Chris Dai<span>RECIKA Japan 取締役</span></p>
         <p>
           中国と日本のクロスボーダー投資ファンドであるLeland Capitalの共同創設者兼CEO。中国と日本での活動を中心に、幅広いビジネスマネジメントと投資を過去に行ってきた。以前はCOO / CIO Yixing SCM(ロジスティクス・プロバイダー）、Accentureのコンサルタント、複数のベンチャー企業の共同設立者。中国のBitcoinとEthereumの早期の投資家の一人で、2013年から仮想通貨投資に携わる。2004年にスタンフォード大学でマネジメント科学と工学のB.S.を取得。
         </p>
       </section>
-      <!-- <section class="officer">
+       <section class="officer">
         <img src="<?php echo get_template_directory_uri(); ?>/images/pic_member_03.png" alt="James Gong">
         <p class="name">James Gong<span>LONGHASH Japan取締役 / LONGHASH Co-founder</span></p>
         <p>

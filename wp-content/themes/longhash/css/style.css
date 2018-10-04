@@ -91,7 +91,7 @@ img {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #396799;
+  background-color: #F8BA00;
 }
 
 .hstyle02 {
@@ -109,7 +109,10 @@ img {
 
 .hstyle04 {
   font-weight: bold;
+  font-size: 30px;
   margin-bottom: 10px;
+  color: #CB297B;
+  text-align: center;
 }
 
 .olstyle01 {
@@ -132,7 +135,7 @@ img {
   width: 180px;
   height: 40px;
   line-height: 40px;
-  background: url(../images/ico_arrow_01.png) 92% center no-repeat #396799;
+  background: url(../images/ico_arrow_01.png) 92% center no-repeat #F8BA00;
   background-size: 7px;
   color: #fff;
   text-align: center;
@@ -221,7 +224,7 @@ img {
   justify-content: space-between;
 }
 #header .current a {
-  color: #396799;
+  color: #F8BA00;
 }
 #header .sns {
   float: right;
@@ -260,7 +263,7 @@ img {
   box-sizing: border-box;
   width: 100%;
   margin-top: 100px;
-  background: url(../images/recika-intro.jpg) center bottom no-repeat;
+  background: url(../images/recika-intro.png) center bottom no-repeat;
   background-size: cover;
   height: 720px;
   text-align: center;
@@ -268,9 +271,9 @@ img {
 }
 .kv .ttl {
   font-weight: bold;
-  font-size: 26px;
-  margin-bottom: 30px;
-  color: #fff;
+  font-size: 40px;
+  margin-top: 100px;
+  color: #CC0066;
 }
 .kv h1 {
   font-weight: bold;
@@ -314,7 +317,7 @@ img {
   overflow: hidden;
 }
 #topNews .newsList .day {
-  color: #396799;
+  color: #F8BA00;
 }
 #topNews .newsList .ttl a {
   display: block;
@@ -350,7 +353,7 @@ img {
 }
 
 #media li a {
-  color: #396799;
+  color: #F8BA00;
   padding-left: 15px;
   position: relative;
 }
@@ -362,8 +365,8 @@ img {
   width: 6px;
   height: 6px;
   margin-top: -5px;
-  border-bottom: 2px solid #396799;
-  border-right: 2px solid #396799;
+  border-bottom: 2px solid #F8BA00;
+  border-right: 2px solid #F8BA00;
   transform: rotate(-45deg);
   content: '';
 }
@@ -512,7 +515,7 @@ img {
   display: inline-block;
   color: #fff;
   font-weight: normal;
-  background: #396799;
+  background: #F8BA00;
   font-size: 9px;
   line-height: 26px;
   height: 26px;
@@ -597,7 +600,7 @@ text-decoration: underline;
   height: auto;
 }
 .sub .day {
-  color: #396799;
+  color: #F8BA00;
   margin-bottom: 80px;
 }
 .sub .contents {
@@ -651,7 +654,7 @@ text-decoration: underline;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #396799;
+  background-color: #F8BA00;
 }
 
 /* 画像配置 左 */
