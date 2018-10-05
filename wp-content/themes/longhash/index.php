@@ -122,7 +122,7 @@ endif;
   <section id="company">
     <div class="bg">
     <div class="inner">
-      <h2 class="hstyle01">コンセプト</h2>
+      <h2 class="hstyle01">レシカコンセプト</h2>
       <img src="<?php echo get_template_directory_uri(); ?>/images/recika-detail_2.png?v1" width=100% alt="コンセプト">
 
       <!-- <div>

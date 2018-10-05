@@ -5,7 +5,7 @@
         <li><a href="#container">トップ</a></li>
         <li><a href="#topNews">なぜレシカ</a></li>
         <!-- <li><a href="#media">MEDIA</a></li> -->
-        <li><a href="#company">コンセプト</a></li>
+        <li><a href="#company">レシカコンセプト</a></li>
         <li><a href="#member">なぜブロックチェーン</a></li>
         <li><a href="#contact">お問い合わせ</a></li>
         <?php else : ?>
@@ -41,7 +41,7 @@
     <li><a href="<?php echo home_url('/'); ?>#container">トップ</a></li>
     <li><a href="<?php echo home_url('/'); ?>#topNews">なぜレシカ</a></li>
     <!-- <li><a href="<?php echo home_url('/'); ?>#media">MEDIA</a></li> -->
-    <li><a href="<?php echo home_url('/'); ?>#company">コンセプト</a></li>
+    <li><a href="<?php echo home_url('/'); ?>#company">レシカコンセプト</a></li>
     <li><a href="<?php echo home_url('/'); ?>#member">なぜブロックチェーン </a></li>
     <li><a href="<?php echo home_url('/'); ?>#contact">お問い合わせ</a></li>
     <!-- <li><a href="http://longhash.co.jp/meetup/" target="_blank" class="meetup"><span>- NEW -</span>MEETUP</a></li> -->
