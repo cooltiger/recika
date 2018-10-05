@@ -774,8 +774,9 @@ img.alignright {
     padding-top: 30px;
   }
   .kv .ttl {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 60px;
   }
   .kv h1 {
     font-size: 22px;
@@ -1085,5 +1086,9 @@ img.alignright {
     font-size: 24px;
     margin-bottom: 30px;
     padding-bottom: 10px;
+  }
+
+  .hstyle04 {
+    font-size: 18px;
   }
 }

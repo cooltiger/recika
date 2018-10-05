@@ -3,9 +3,9 @@
   <section class="kv">
     <div class="inner">
       <p class="ttl">
-        レシカは、 レシート　➕ ブロックチェーン　<br class="pc">
-        レシカは、 顧客データ効率よく取得できる　<br class="pc">
-        レシカは、 日本の地方経済を活性化する　<br class="pc">
+        レシカは、 レシート　➕ ブロックチェーン　<br>
+        レシカは、 顧客データ効率よく取得できる　<br>
+        レシカは、 日本の地方経済を活性化する　<br>
       </p>
       
       <!--
@@ -123,7 +123,9 @@ endif;
     <div class="bg">
     <div class="inner">
       <h2 class="hstyle01">コンセプト</h2>
-      <div>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/recika-detail_2.png?v1" width=100% alt="コンセプト">
+
+      <!-- <div>
       <p class="hstyle04">
        レシカはブロックチェーンによる”分散型データマーケット <br> 
        プレイス”で生産者と消費者をデータやポイント（トークン）<br> 
@@ -132,7 +134,7 @@ endif;
        <br> 
        <br> 
       </p>
-      </div>
+      </div> -->
       <!-- <div class="movieWrap">
         <div class="movie">
           <iframe src="https://www.youtube.com/embed/zS67Sl4rwHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -329,7 +331,7 @@ endif;
   <section id="contact">
     <div class="bg">
     <div class="inner">
-      <h2 class="hstyle01">CONTACT</h2>
+      <h2 class="hstyle01">お問い合わせ</h2>
       <p>必要事項を記入の上、確認画面へボタンを押してください。</p>
       <?php
       echo do_shortcode( '[mwform_formkey key="19"]' );
