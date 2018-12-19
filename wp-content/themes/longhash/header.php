@@ -12,7 +12,7 @@
 <meta property="og:title" content="k.k RECIKA | BLOCKCHAIN Advancing the understanding and development of blockchain technology"/>
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://recika.jp/"/>
-<meta property="og:image" content="http://recika.jp/wp-content/themes/longhash/images/Tokex_20180306_v1.png"/>
+<meta property="og:image" content="http://recika.jp/wp-content/themes/longhash/images/recika_icon.png"/>
 <meta property="og:site_name"  content="株式会社RECIKA | ブロックチェーン技術で作る購買データマーケットプレイスとユニバーサルポイントプログラム"/>
 <meta property="og:description" content="ブロックチェーン技術で作る購買データマーケットプレイスとユニバーサルポイントプログラム"/>
 
